@@ -3,7 +3,7 @@
 
 
 
-def genget(varname):
+def genget(typeName, varname):
 
         # Uppercase first letter
         varnameTitle = varname.capitalize()
@@ -17,7 +17,7 @@ def genget(varname):
 * @return {varname}
 */
             
-public String get{varnameTitle}()""" + "{" + f"\n\treturn {varname};\n" + "}")
+public {typeName} get{varnameTitle}()""" + "{" + f"\n\treturn {varname};\n" + "}")
         
 
 
@@ -56,7 +56,7 @@ def main():
         #print everthing to file
         for i in varNames:
             f.write("\n\n")
-            f.write(genget(i[1]))
+            f.write(genget(i[0],i[1]))
             f.write("\n\n")
             f.write(genset(i[0],i[1]))
 
