@@ -1,0 +1,64 @@
+
+
+
+/**
+* getTest() gets test
+* 
+* @return test
+*/
+            
+public String getTest(){
+	return test;
+}
+
+
+/**
+* setTest() sets test
+* 
+* @param test
+*/         
+public void setTest(int test){
+	this.test = test;
+}
+
+
+/**
+* getBug() gets bug
+* 
+* @return bug
+*/
+            
+public String getBug(){
+	return bug;
+}
+
+
+/**
+* setBug() sets bug
+* 
+* @param bug
+*/         
+public void setBug(String bug){
+	this.bug = bug;
+}
+
+
+/**
+* getFeature() gets feature
+* 
+* @return feature
+*/
+            
+public String getFeature(){
+	return feature;
+}
+
+
+/**
+* setFeature() sets feature
+* 
+* @param feature
+*/         
+public void setFeature(double feature){
+	this.feature = feature;
+}
